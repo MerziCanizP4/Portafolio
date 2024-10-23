@@ -1,2 +1,1 @@
-# Portafolio
-Portafolio profesional desarrollo web 
+***El mismo trata de un Portafolio que contiene los trabajos elaborados a lo largo de la trayecoria como los datos del elaborante***

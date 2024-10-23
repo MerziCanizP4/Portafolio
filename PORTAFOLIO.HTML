@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M.J - Portafolio</title>
+  <style>
+    /* Estilos generales */
+    body {
+      background-color: #0C222F;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #0c1a27;
+      padding: 15px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #32B61C; /* Verde */
+    }
+
+    .header-nav {
+      display: flex;
+    }
+
+    .header-nav a {
+      color: #FEF414; /* Amarillo */
+      text-decoration: none;
+      margin-left: 20px;
+      padding: 10px;
+      transition: background-color 0.3s;
+      font-weight: bold;
+    }
+
+    .header-nav a:hover {
+      background-color: #ffd700; /* Amarillo más claro */
+    }
+
+    .portafolio-section {
+      padding: 40px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 30px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .portafolio-item {
+      background-color: #153044;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+      overflow: hidden;
+    }
+
+    .portafolio-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .portafolio-item h3 {
+      padding: 20px;
+      margin: 0;
+      font-size: 18px;
+      font-weight: bold;
+      color: #FEF414; /* Amarillo */
+    }
+
+    .portafolio-item p {
+      padding: 0 20px 20px;
+      margin: 0;
+      font-size: 14px;
+      color: #ddd;
+    }
+
+    @media (max-width: 768px) {
+      .portafolio-section {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .portafolio-section {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>M.J</h1>
+    <nav class="header-nav">
+        <a href="pagina inicio.html">Inicio</a>
+        <a href="SOBRE MI .HTML">Sobre mí</a>
+        <a href="HABILIDADES.HTML">Habilidades</a>
+        <a href="CURRICULUM.HTML">Currículum</a>
+        <a href="PORTAFOLIO.HTML">Portafolio</a>
+        <a href="CONTACTO.HTML">Contactos</a>
+    </nav>
+  </header>
+  <div class="portafolio-section">
+    <div class="portafolio-item">
+      <img src="C:\Users\HP\OneDrive\Escritorio\portafolio\imagenes\INICIO DE BANCOPOLY.png" alt="Bancapoly Game">
+      <h3>Bancapoly</h3>
+      <p>Juego elaborado en NetBeans, lenguaje Java, contiene el tablero, los usuarios y las opciones generales del juego.</p>
+    </div>
+    <div class="portafolio-item">
+      <img src="C:\Users\HP\OneDrive\Escritorio\portafolio\imagenes\CALCULADORA.png" alt="Calculadora">
+      <h3>Calculadora</h3>
+      <p>Manual de usuario que describe el funcionamiento y las características de un software desarrollado que en este caso es la calculadora.</p>
+    </div>
+    <div class="portafolio-item">
+      <img src="C:\Users\HP\OneDrive\Escritorio\portafolio\imagenes\ESTADISTICA.png" alt="Teoremas de Estadística">
+      <h3>Teoremas de Estadística</h3>
+      <p>Programa elaborado en NetBeans, lenguaje Java, que contiene diferentes teoremas utilizados en el ámbito estadístico.</p>
+    </div>
+    <div class="portafolio-item">
+      <img src="C:\Users\HP\OneDrive\Escritorio\portafolio\imagenes\SO.png" alt="Programa de Software">
+      <h3>Programa de Software</h3>
+      <p>Programa elaborado en Visual Studio 2022, lenguaje C#, vinculado con hipervínculos para ejecutar procesos a nivel de software.</p>
+    </div>
+    <div class="portafolio-item">
+      <img src="C:\Users\HP\OneDrive\Escritorio\portafolio\imagenes\TOTITO.png" alt="Totito">
+      <h3>Totito</h3>
+      <p>Esto elaborado con el lenguaje de java por Netbeans es un juego clasico llamado TOTITO.</p>
+    </div>
+  </div>
+</body>
+</html>
